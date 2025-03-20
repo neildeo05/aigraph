@@ -1,0 +1,3 @@
+read_verilog temp.v
+synth -flatten; opt; dffunmap; abc -g AND
+write_aiger -ascii input_graph.aag

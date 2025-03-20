@@ -1,0 +1,3 @@
+[submodule "AIGER"]
+	path = AIGER
+	url = git@github.com:neildeo05/AIGER.git
